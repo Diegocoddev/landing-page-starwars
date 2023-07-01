@@ -10,11 +10,12 @@
 }
 
 .section-title > div {
-    border-right: 5px solid black;
+    border-right: 5px solid white;
 }
 
 .section-title > div > span {
     padding: 5px 0;
+    display: flex;
 }
 
 .title-span {

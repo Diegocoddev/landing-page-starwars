@@ -1,0 +1,15 @@
+.section-photos{
+background-color: white;
+padding: 10px;
+margin: 50px 0;
+color: black;
+}
+
+.section-character{
+    margin-bottom: 10px;
+}
+
+.photos-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 285px);
+}
