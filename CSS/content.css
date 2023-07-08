@@ -1,8 +1,8 @@
 .section-photos{
-background-color: white;
+background-color: black;
 padding: 10px;
 margin: 50px 0;
-color: black;
+color: white;
 }
 
 .section-character{
@@ -12,4 +12,12 @@ color: black;
 .photos-container{
     display: grid;
     grid-template-columns: repeat(auto-fill, 285px);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    gap: 29px;
+}
+
+.photoimg{
+border-radius: 15px;
 }
