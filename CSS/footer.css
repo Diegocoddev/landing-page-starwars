@@ -1,0 +1,31 @@
+.footer {
+font-size: 12px;
+text-align: center;
+display: flex;
+align-items: center;
+margin-left: 25px;
+}
+
+.footer-author {
+    font-size: 20px;
+    color: white;
+    line-height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+    

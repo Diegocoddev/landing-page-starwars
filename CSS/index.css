@@ -2,6 +2,7 @@
 @import "./navbar.css";
 @import "./wrapper.css";
 @import "./content.css";
+@import "./footer.css";
 
 *{
     margin: 0;
